@@ -94,7 +94,7 @@ function Form() {
                     icon={plus}
                     bPad={'.8rem 1.6rem'}
                     bRad={'30px'}
-                    bg={'var(--color-accent'}
+                    bg={'black'}
                     color={'#fff'}
                 />
             </div>
@@ -115,7 +115,7 @@ const FormStyled = styled.form`
         padding: .5rem 1rem;
         border-radius: 5px;
         border: 2px solid #fff;
-        background: transparent;
+        background: white;
         resize: none;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
         color: white
@@ -141,10 +141,12 @@ const FormStyled = styled.form`
     }
 
     .submit-btn{
+        background: black;
+
         button{
             box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
             &:hover{
-                background: var(--color-green) !important;
+                background: black !important;
             }
         }
     }

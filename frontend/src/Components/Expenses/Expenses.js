@@ -47,7 +47,7 @@ function Expenses() {
 
 const ExpenseStyled = styled.div`
 background-color: black !important; /* Force background to black */
-  color: white; /* Ensure text is white */
+//   color: white; /* Ensure text is white */
   height: 100vh; /* Ensure it covers the full height */
   padding: 2rem;
     display: flex;

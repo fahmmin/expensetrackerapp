@@ -94,7 +94,7 @@ function ExpenseForm() {
                     icon={plus}
                     bPad={'.8rem 1.6rem'}
                     bRad={'30px'}
-                    bg={'var(--color-accent'}
+                    bg={'black'}
                     color={'#fff'}
                 />
             </div>
@@ -124,7 +124,9 @@ const ExpenseFormStyled = styled.form`
         }
     }
     .input-control{
-        input{
+    textarea{
+        background: white;}      input{
+        background: white;
             width: 100%;
         }
     }
@@ -133,6 +135,7 @@ const ExpenseFormStyled = styled.form`
         display: flex;
         justify-content: flex-end;
         select{
+        background: white;
             color: rgba(34, 34, 96, 0.4);
             &:focus, &:active{
                 color: rgba(34, 34, 96, 1);
@@ -141,10 +144,12 @@ const ExpenseFormStyled = styled.form`
     }
 
     .submit-btn{
+    background: black;
+    
         button{
             box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
             &:hover{
-                background: var(--color-green) !important;
+                background: black !important;
             }
         }
     }
