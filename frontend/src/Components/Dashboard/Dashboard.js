@@ -61,8 +61,9 @@ function Dashboard() {
 const DashboardStyled = styled.div`
 background-color: black !important; /* Force background to black */
   color: white !important ; /* Ensure text is white */
+  overflow:hidden;
   height: 100vh; /* Ensure it covers the full height */
-  padding: 2rem;
+  padding: 1rem;
     .stats-con{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -93,12 +94,19 @@ background-color: black !important; /* Force background to black */
                         margin-bottom: 0.5rem; /* Space between heading and amount */
                     }
                 }
-                .balance{
+
+                }
+                    .income{
                     p{
                         color: var(--color-green);
                         opacity: 0.8; /* Slightly higher opacity */
+}}
+                    .expense{
+                    p{
+                        color: red;
+                        opacity: 0.8; /* Slightly higher opacity */
                     }
-                }
+
             }
         }
 
