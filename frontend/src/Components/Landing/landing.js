@@ -16,7 +16,7 @@ const Landing = () => {
     setError('');
     
     try {
-      const endpoint = isLogin ? 'https://expensetrackerapp-kho6.onrender.com/api/login' : 'https://expensetrackerapp-kho6.onrender.com/api/register';
+      const endpoint = isLogin ? 'https://expensetrackerapp-backend.onrender.com/api/login' : 'https://expensetrackerapp-backend.onrender.com/api/register';
       const response = await axios.post(endpoint, formData);
       
       // Store user data in localStorage
