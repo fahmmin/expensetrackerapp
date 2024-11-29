@@ -1,8 +1,6 @@
-import React, { useMemo, useState, useEffect } from 'react';
+import React, {useState, useEffect } from 'react';
 import styled from 'styled-components';
-import bg from './img/bg.png';
 import { MainLayout } from './styles/Layouts';
-import Orb from './Components/Orb/Orb';
 import Navigation from './Components/Navigation/Navigation';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Income from './Components/Income/Income';
@@ -52,10 +50,6 @@ const App = () => {
       return <Landing />;
     }
   };
-
-  const orbMemo = useMemo(() => {
-    return <Orb />;
-  }, []);
 
   const handleSignOut = () => {
     localStorage.removeItem('user');
