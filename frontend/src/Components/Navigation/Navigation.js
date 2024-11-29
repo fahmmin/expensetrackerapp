@@ -115,13 +115,15 @@ const NavigationStyled = styled.nav`
   .bottom-nav {
     button {
       color: white !important; /* Ensure text is white */
-      background: none;
+      background: green; /* Add green background */
       border: none;
       cursor: pointer;
       font-size: 1rem;
+      padding: 0.5rem 1rem; /* Add padding for better appearance */
+      border-radius: 20px; /* Increase border-radius for more rounded corners */
       transition: all .4s ease-in-out;
       &:hover {
-        color: #aaa; /* Optional: Change color on hover */
+        background: darkgreen; /* Optional: Change background color on hover */
       }
     }
   }

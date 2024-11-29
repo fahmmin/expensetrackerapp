@@ -94,7 +94,7 @@ function ExpenseForm() {
                     icon={plus}
                     bPad={'.8rem 1.6rem'}
                     bRad={'30px'}
-                    bg={'black'}
+                    bg={'green'}
                     color={'#fff'}
                 />
             </div>
