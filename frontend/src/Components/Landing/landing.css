@@ -4,6 +4,35 @@
   padding: 20px;
 }
 
+.trackpay-heading1 {
+  font-size: 2.5em;
+  color: #4CAF50;
+  /* Green color */
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+}
+
+.trackpay-heading {
+  font-size: 1.5em;
+  color: #000000;
+
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.welcome_sign {
+  font-size: 2em;
+  color: #0000ff;
+  /* Black color */
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
 .landing-header {
   text-align: center;
   padding: 60px 0;
@@ -56,7 +85,7 @@
 .feature-card {
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .cta-section {

@@ -55,7 +55,10 @@ const Landing = () => {
   return (
     <div className="auth-container">
       <div className="auth-box">
-        <h2>{isLogin ? 'Welcome Back' : 'Create Account'}</h2>
+      <h1 className="trackpay-heading1">TrackPay</h1>
+      <h1 className="trackpay-heading">Handle Expenses with Ease</h1>
+      <h2 className='welcome_sign'>{isLogin ? 'Welcome Back' : 'Create Account'}</h2>
+
         
         {error && <div className="error-message">{error}</div>}
         
